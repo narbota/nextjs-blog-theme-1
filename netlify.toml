@@ -1,6 +1,7 @@
 [build]
   command = "npm run build"
   publish = ".next"
+  target = port 3000
 
   [build.environment]
     # cache Cypress binary in local "node_modules" folder
@@ -14,3 +15,5 @@
 #   [plugins.inputs]
 #       record = true
 #       group = "Testing Built Site"
+
+
